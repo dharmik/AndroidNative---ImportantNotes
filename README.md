@@ -42,5 +42,6 @@ public String getFileNameFromUrl(String path) {
    Other second line means to like in simple language <b>Refresh</b>
    
    ~~~
-   adapter.selectedPosition = positi
+   adapter.selectedPosition = position;
+   adapter.notifyDataSetChanged();
    ~~~
