@@ -45,3 +45,11 @@ public String getFileNameFromUrl(String path) {
    adapter.selectedPosition = position;
    adapter.notifyDataSetChanged();
    ~~~
+   
+   <b>5) How to hide keyboard when you click on screen area</b>
+   
+   ~~~
+   http://stackoverflow.com/questions/4165414/how-to-hide-soft-keyboard-on-android-after-clicking-outside-edittext
+   
+   <a>http://stackoverflow.com/questions/4165414/how-to-hide-soft-keyboard-on-android-after-clicking-outside-edittext</a>
+   ~~~
