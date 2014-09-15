@@ -51,3 +51,12 @@ public String getFileNameFromUrl(String path) {
 ==================
 http://stackoverflow.com/questions/4165414/how-to-hide-soft-keyboard-on-android-after-clicking-outside-edittext
 
+
+   <b>6) Open All videos Only</b>
+   
+    ~~~
+    final Intent galleryIntent = new Intent(Intent.ACTION_GET_CONTENT);
+    galleryIntent.setType("video/*");
+    startActivityForResult(galleryIntent, RESULT_LOAD_IMAGE);
+    ~~~
+
