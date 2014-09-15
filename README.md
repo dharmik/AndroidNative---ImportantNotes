@@ -54,9 +54,9 @@ http://stackoverflow.com/questions/4165414/how-to-hide-soft-keyboard-on-android-
 
    <b>6) Open All videos Only</b>
    
-    ~~~
+~~~
     final Intent galleryIntent = new Intent(Intent.ACTION_GET_CONTENT);
     galleryIntent.setType("video/*");
     startActivityForResult(galleryIntent, RESULT_LOAD_IMAGE);
-    ~~~
+~~~
 
